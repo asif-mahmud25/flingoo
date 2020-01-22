@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerSettings"
+    android:orientation="vertical"
+
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:backgroundTint="@color/bluedark"
+        app:title="Service Provider Settings"
+        app:titleTextColor="@color/bluelesslight"
+        />
+
+    <ImageView
+        android:id="@+id/cprofileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/ic_default_user" />
+
+    <EditText
+        android:id="@+id/name"
+        android:text="Name:  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cprofileImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:hint="Name"
+        android:paddingHorizontal="20sp"
+        android:paddingTop="20sp"
+        android:paddingBottom="10sp" />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:text="Phone:  "
+        android:background="@null"
+        android:hint="Phone"
+        android:paddingHorizontal="20sp"
+        android:paddingTop="20sp"
+        android:paddingBottom="10sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="146dp"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/Plumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:text="Plumber" />
+
+        <RadioButton
+            android:id="@+id/Automechanic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:text="Automechanic" />
+
+        <RadioButton
+            android:id="@+id/Electrician"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+
+            android:text="Electrician" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/phone"
+        android:layout_alignTop="@+id/back_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:text="Confirm" />
+
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="65dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

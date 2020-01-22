@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/bgwelcome2"
+    >
+
+
+    <Button
+        android:id="@+id/welcome_customer_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/welcome_driver_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/btndesign1"
+        android:layout_centerHorizontal="true"
+        android:text="I Need Something Done!"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/welcome_driver_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/btndesign2"
+        android:text="I Got You Covered!"
+        android:textSize="18sp" />
+</RelativeLayout>

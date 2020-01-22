@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "45137383809",
+    "firebase_url": "https://flingoo-5ae83.firebaseio.com",
+    "project_id": "flingoo-5ae83",
+    "storage_bucket": "flingoo-5ae83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45137383809:android:7a171a5dea61cbd3",
+        "android_client_info": {
+          "package_name": "com.example.asif.flingoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45137383809-1p6rbeh7u6ta3p1jb24d162nik5bcemr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asif.flingoo",
+            "certificate_hash": "cc10ee2400264e0a860dcf92d8181a1fcb0ef5a2"
+          }
+        },
+        {
+          "client_id": "45137383809-lcim1uj164dj4plbfflm96ig7ok6aq9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asif.flingoo",
+            "certificate_hash": "dd36fd11c9c6657cd0578905538d7f4095a6749e"
+          }
+        },
+        {
+          "client_id": "45137383809-9aqv0gcibo7bli69350sg2u26u3d4gq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCowD9CeawyhjL-AsJoiZ7vcUL6RyX13Uo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45137383809-9aqv0gcibo7bli69350sg2u26u3d4gq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
